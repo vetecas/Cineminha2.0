@@ -39,7 +39,7 @@ namespace CinemaTest
 
         [TestMethod]
 
-        public void TestMethod()
+        public void TestGenero()
         {
             var serviceProvider = ConfigureServices();
             var generoService = serviceProvider.GetService<IBaseService<Genero>>();
